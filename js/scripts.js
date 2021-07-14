@@ -1,13 +1,26 @@
-let myName = 'Bob';
-document.write(myName);
-myName = 'John Doe';
-document.write(myName);
-
-let simpleAddition = 2 + 2;
-document.write(simpleAddition);
-
-let size = 100;
-let doubleSize = size * 2;
-document.write(doubleSize);
-
-alert('Hello world');
+let pokemonList = [
+  {
+    name: 'Bulbasaur',
+    height: 0.7,
+    types: ['gras','poison'],
+    generation: 1,
+  },
+  {
+    name: 'Charizard',
+    height: 1.7,
+    types: ['fire','flying'],
+    generation: 1,
+  },
+  {
+    name: 'Onix',
+    height: 8.8,
+    types: ['rock','ground'],
+    generation: 1,
+  },
+  {
+    name: 'Blaztoise',
+    height: 1.6,
+    types: ['water'],
+    generation: 1,
+  },
+];
